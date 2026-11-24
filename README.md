@@ -55,10 +55,9 @@ kind, confidence, needsReview}] , warnings }
 
 ## 快速开始（宿主机）
 
-核心不依赖系统 OCR，测试使用注入的替身引擎：
+在独立仓库根目录运行；核心测试使用注入的 OCR 替身引擎：
 
 ```bash
-cd code/M1
 cargo test                      # 3 个单元测试：阅读顺序、旋转映射、低置信标记
 ```
 
