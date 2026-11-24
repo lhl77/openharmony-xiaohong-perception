@@ -1,0 +1,7 @@
+{
+  "name": "libxiaohong_perception.so",
+  "version": "0.1.0",
+  "description": "Async OpenHarmony N-API types for the Rust M1 backend",
+  "types": "./Index.d.ts",
+  "license": "MIT OR Apache-2.0"
+}

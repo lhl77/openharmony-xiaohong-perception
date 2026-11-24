@@ -1,0 +1,45 @@
+# Rust build outputs
+/target/
+**/target/
+/models/
+**/models/
+
+# OpenHarmony / DevEco Studio generated outputs
+**/build/
+**/.hvigor/
+**/.preview/
+**/oh_modules/
+**/node_modules/
+*.hap
+*.har
+
+# OCR model weights and generated test media
+*.onnx
+*.rten
+*.tflite
+*.ms
+*.jpg
+*.jpeg
+*.png
+*.webp
+!docs/**/*.png
+
+# Native build outputs
+*.so
+*.dylib
+*.dll
+*.a
+*.o
+*.obj
+*.d
+*.gcda
+*.gcno
+
+# Local environment and editor
+.env
+.env.*
+!.env.example
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
